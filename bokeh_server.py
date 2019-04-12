@@ -116,7 +116,7 @@ def rerun_button():
 	set_view(output[0].reshape(56, 56))
 
 
-button_for_rerun = Button(label = "Genreate Pokemon", button_type="success")
+button_for_rerun = Button(label = "Generate Pokemon", button_type="success")
 button_for_rerun.on_click(rerun_button)
 # put the button and plot in a layout and add to the document
 select  = Select(title = "Pokemon Number", value = "0", options=number_options)
