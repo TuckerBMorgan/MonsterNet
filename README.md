@@ -11,11 +11,11 @@ I choose the Pokemon images because they were all the same sizes, and yet still 
 
 requirements:
 
-	pip install tensorflow
+	pip3 install tensorflow
 
-	pip install bokeh
+	pip3 install bokeh
 
-	git lfs(the grey_scale_larger model is too large for github)
+	git lfs pull (the grey_scale_larger model is too large for github)
 
 
 run with:
